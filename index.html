@@ -132,25 +132,12 @@
 					
 						<h2><span style="font-size: 46px; text-transform: none;">Hangga Aji Sayekti</span><span>'s Portfolio</span></h2>
 						
-						<!-- <a  href="https://hangga.github.io/blog/" class="btn btn-light btn-outline transition">Blog</a>
+					
 
-						<a target="_blank" href="https://hangga-aji-sayekti.medium.com/" class="btn btn-light btn-outline transition">Medium</a>
-
-						<a target="_blank" href="https://www.baeldung.com/author/hanggaajisayekti" class="btn btn-light btn-outline transition">Baeldung</a>
-
-						<a target="_blank" href="https://github.com/hangga" class="btn btn-light btn-outline transition">Github</a>
-
-						<a target="_blank" href="https://www.linkedin.com/in/hanggaajisayekti/" class="btn btn-light btn-outline transition">Linkedin</a>
-						
-						<a target="_blank" href="https://www.hackerrank.com/bazeniancode" class="btn btn-light btn-outline transition">HackerRank</a>
-						
-						<a target="_blank" href="https://hangga.github.io/cv/" class="btn btn-light btn-outline transition">Resume</a>
-						
-						 -->
-
-						<h1 style="margin-top: 45px; margin-bottom: 10px; font-size: 20px; font-weight:lighter; line-height: 30px;">I may just be an ordinary programmer, 😁✌️
-but I’ve had the chance to work on some interesting projects.
-Maybe you’ll enjoy checking them out. 😊</h1>
+						<h1 style="margin-top: 45px; margin-bottom: 10px; font-size: 20px; font-weight:lighter; line-height: 30px;">Father by day, hacker and coder by night.
+I build, break, and rebuild systems to understand how they work — and how to make them better.
+With a background in Mathematics, I approach both development and cybersecurity with analytical precision and curiosity.
+My work spans web and mobile development, security research, and open-source recon tools. Occasionally, I dive into academic research when the math side of me takes over.</h1>
 					
 					
 					
@@ -170,12 +157,91 @@ Maybe you’ll enjoy checking them out. 😊</h1>
 			<button id="btnlibrary" class="btnfilter" onclick="filterSelection('library')"></button>
 			<button id="btnsdk" class="btnfilter" onclick="filterSelection('sdk')"></button>
 			<button id="btnresearch" class="btnfilter" onclick="filterSelection('research')"></button>
-			
+			<button id="btnsecurity" class="btnfilter" onclick="filterSelection('security')"></button>
+			<button id="btnrecon" class="btnfilter" onclick="filterSelection('recon')"></button>
 		</div>
 		<br/>
 
 		<!-- data-colorbg="#FF6138" -->
 		<div class="main">
+
+			<div class="filterDiv security fh5co-project js-fh5co-waypoint fh5co-reverse" data-colorbg="" data-next="yes">
+				<div class="container">
+					<div class="fh5co-project-inner row" >
+						<div class="fh5co-text-wrap animate-box">
+						</div>
+						<!--<h1 class="number"></h1>-->
+						<div class="fh5co-imgs col-md-8 col-md-push-4 animate-box">
+							<div class="img-holder-1 animate-box">
+								<img width="600px" src="images/fireconx.png" >
+							</div>
+							
+							<div class="img-holder-2 animate-box">
+								<img width="360px" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWg5Y2J6YnA4bTk1czI5M2ZwM3ZxMTRibGd4NmJnYTBpY2RtMWZnNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8SNnK916TItw7ENOoH/giphy.gif" >
+							</div>
+						</div>
+						<div class="fh5co-text col-md-4 col-md-pull-8 animate-box">
+							
+							<p class="date">2025, Nov</p>
+							
+							<h2>FireConX</h2>
+							<!-- <h5 class="po">Product Owner: PT Kredibel Teknologi Indonesia</h5> -->
+							<span class="label">Security</span><span class="label label-role">Security Researcher</span><br/>
+							<span class="tech">ShellScript</span>
+							<span class="tech">Firebase</span>
+							
+							<p>FireConX is a lightweight Bash tool to perform quick security checks against Firebase Realtime Database, Firebase Storage and Google Maps/Google APIs. It focuses on unauthenticated/public exposure checks (pentest mode) and will not attempt to log in to targets.</p>
+							<p>
+								<a target="_blank" href="https://github.com/hangga/FireconX" class="btn btn-light btn-outline transition">Source Code</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="filterDiv security recon fh5co-project js-fh5co-waypoint" data-bgcolor="" data-next="yes">
+				<div class="container">
+					<div class="fh5co-project-inner row">
+						<!--<h1 class="number kanan"></h1>-->
+						<div class="fh5co-imgs col-md-8 animate-box">
+
+							<div class="img-holder-1 animate-box">
+								<img width="600px" src="images/wayback-gui.png" >
+							</div>
+							
+							<div class="img-holder-2 animate-box">
+								<img width="350px" src="https://github.com/hangga/Wayback-GUI/raw/main/Wayback_GUI.gif?raw=true">
+							</div>
+							
+						</div>
+						<div class="fh5co-text col-md-4 animate-box">
+							<p class="date">2025, Oct</p>
+							
+							<h2>Wayback GUI</h2>
+							<!--
+							<h5 class="po">Product Owner: PT. Kredibel Teknologi Indonesia.</h5>
+							-->
+							<span class="label">Security</span>
+							<span class="label">Reconnaisance</span>
+							<span class="label label-role">Security Researcher</span><br/>
+							<!-- tech stack -->
+							<span class="tech">Java</span>
+							<span class="tech">Swing GUI</span>
+							<span class="tech">wayback.archive.org</span>
+							<p>A stealthy Java-based tool for extracting historical URL data from Wayback Machine archives (Unofficial). Designed for security researchers and penetration testers.</p>
+							<p>
+								<a target="_blank" href="https://github.com/hangga/Wayback-GUI" class="btn btn-light btn-outline transition">Source Code</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+
 			<div class="filterDiv library fh5co-project js-fh5co-waypoint fh5co-reverse" data-colorbg="" data-next="yes">
 				<div class="container">
 					<div class="fh5co-project-inner row" >
@@ -1551,6 +1617,8 @@ Maybe you’ll enjoy checking them out. 😊</h1>
 			sdk = document.getElementsByClassName("filterDiv sdk");
 			game = document.getElementsByClassName("filterDiv game");
 			rsch = document.getElementsByClassName("filterDiv sdk");
+			sec = document.getElementsByClassName("filterDiv security");
+			recon = document.getElementsByClassName("filterDiv recon");
 
 			//scientific research
 			document.getElementById("btnall").textContent = "All ("+all.length+")";
@@ -1562,6 +1630,8 @@ Maybe you’ll enjoy checking them out. 😊</h1>
 			document.getElementById("btnsdk").textContent = "SDK ("+sdk.length+")";
 			document.getElementById("btngame").textContent = "Game ("+game.length+")";
 			document.getElementById("btnresearch").textContent = "Science Research ("+rsch.length+")";
+			document.getElementById("btnsecurity").textContent = "Security ("+sec.length+")";
+			document.getElementById("btnrecon").textContent = "Reconnaisance ("+recon.length+")";
 		}
 
 		function filterSelection(c) {
